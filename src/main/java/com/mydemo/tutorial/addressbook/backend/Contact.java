@@ -12,7 +12,7 @@ import java.util.Date;
  * in the database and can also be easily converted to different formats like JSON.
  */
 // Backend DTO class. This is just a typical Java backend implementation
-// class and nothing Vaadin specific.
+// class and nothing Vaadin specific. Good job here.
 public class Contact implements Serializable, Cloneable {
 
     private Long id;

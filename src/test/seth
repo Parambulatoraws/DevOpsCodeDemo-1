@@ -1,1 +1,3 @@
 Hello Pettus
+With S3 and CloudFront set up, you can now use them to serve static assets, host files,
+and provide content delivery in your React application.

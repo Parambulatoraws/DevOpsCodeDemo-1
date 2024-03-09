@@ -13,8 +13,8 @@
                         git 'https://github.com/RayItern/DevOpsCodeDemo-1.git'
                     }
                 }
-                stage('Compile on slave1'){
-                    agent {label 'slave1'}
+                stage('Compile on slave2'){
+                    agent {label 'slave2'}
                     steps{
                         echo 'compiling...'
                         sh 'mvn compile'
